@@ -1,0 +1,6 @@
+{
+  "name": "Meu Treino HIIT",
+  "description": "Aplicativo responsivo de treino funcional HIIT personalizado com temporizadores e calendário semanal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
