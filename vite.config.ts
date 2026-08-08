@@ -5,8 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    // Caminho base usado pelo GitHub Pages
-    base: '/treinohiit/',
+    base: './',
 
     plugins: [
       react(),
@@ -20,10 +19,7 @@ export default defineConfig(() => {
     },
 
     server: {
-      // HMR pode ser desativado pelo AI Studio através da variável DISABLE_HMR
       hmr: process.env.DISABLE_HMR !== 'true',
-
-      // Desativa o file watching quando DISABLE_HMR estiver ativo
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
   };
